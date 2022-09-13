@@ -1,23 +1,50 @@
-import logo from './logo.svg';
-import './App.css';
-
+import logo from "./logo.svg";
+import "./App.css";
+import Header from './Mycomponents/Header.js'
+import Todos from './Mycomponents/Todos'
+import React,{useState} from 'react'
+import Footer from "./Mycomponents/Footer";
+import {BrowserRouter as Router,Route, Routes as Switch} from 'react-router-dom'
+import Home from './Pages/Home'
+import Trending from "./Pages/Trending";
 function App() {
+  const onDelete=(todoo)=>{
+    console.log("Deleting!!!",todoo)
+    setTodo(todo.filter((e)=>
+    {
+      return e!=todoo;
+    }))
+  }
+   const [todo,setTodo]=useState([
+    {
+    sno:1,
+    name:"Money Heist" ,
+    age:"S1 23 Episode"
+  },
+  {
+    sno:2,
+    name:"Game of Thrones",
+    age:"S7 15 Episode"
+  },
+{
+  sno:3,
+  name:"Mirzapur",
+  age:"S2 Last Episode"
+}]);
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <h1>Hello {a}</h1>
+      <p>Paras Here!</p> */}
+
+      <Router>
+      <Header titlee="Zee 4.0"/>
+        <Switch>
+          <Route path="/" element={<Home/>}/>
+          <Route path="/Trending" element={<Trending/>}/>
+        </Switch>
+      </Router>
+      {/* <Todos todo={todo} onDelete={onDelete}/> */}
+      <Footer/>
     </div>
   );
 }
