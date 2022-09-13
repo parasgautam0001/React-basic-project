@@ -64,7 +64,7 @@ export default function Header(props) {
                   </li>
                   <li>
                     <a className="dropdown-item" href="#">
-                    <Link to="/Todos" style={{ textDecoration: 'none', color:'black'}}>Notifications</Link>
+                    <Link to="/Todos" style={{ textDecoration: 'none', color:'black'}}>Watchlist</Link>
                     </a>
                   </li>
                 </ul>
