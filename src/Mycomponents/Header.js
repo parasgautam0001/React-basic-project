@@ -62,6 +62,11 @@ export default function Header(props) {
                     <Link to="/Trending" style={{ textDecoration: 'none', color:'black'}}>Anime</Link>
                     </a>
                   </li>
+                  <li>
+                    <a className="dropdown-item" href="#">
+                    <Link to="/Todos" style={{ textDecoration: 'none', color:'black'}}>Notifications</Link>
+                    </a>
+                  </li>
                 </ul>
               </li>
               <li className="nav-item">

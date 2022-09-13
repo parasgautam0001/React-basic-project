@@ -41,9 +41,9 @@ function App() {
         <Switch>
           <Route path="/" element={<Home/>}/>
           <Route path="/Trending" element={<Trending/>}/>
+          <Route path="/Todos" element={<Todos todo={todo} onDelete={onDelete}/> }/>
         </Switch>
       </Router>
-      {/* <Todos todo={todo} onDelete={onDelete}/> */}
       <Footer/>
     </div>
   );
