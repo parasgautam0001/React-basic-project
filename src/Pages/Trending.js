@@ -1,5 +1,4 @@
 import React from "react";
-import zee from '../assets/zeelogo.png'
 import zee1 from '../assets/zee1.jpg'
 import zee2 from '../assets/zee2.jpg'
 import zee3 from '../assets/zee3.jpg'
@@ -13,9 +12,9 @@ import zee10 from '../assets/zee10.jpg'
 function Trending() {
   return (
     <div>
-      <div class="row">
-        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6 col-xxs-12">
-          <div class="menu-tiles">
+      <div className="row">
+        <div className="col-lg-3 col-md-4 col-sm-6 col-xs-6 col-xxs-12">
+          <div className="menu-tiles">
             <a href="single.html">
               <img
                 src={zee1}
@@ -27,8 +26,8 @@ function Trending() {
             </a>
           </div>
         </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6 col-xxs-12">
-          <div class="menu-tiles">
+        <div className="col-lg-3 col-md-4 col-sm-6 col-xs-6 col-xxs-12">
+          <div className="menu-tiles">
             <a href="single.html">
               <img
                 src={zee2}
@@ -40,8 +39,8 @@ function Trending() {
             </a>
           </div>
         </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6 col-xxs-12">
-          <div class="menu-tiles">
+        <div className="col-lg-3 col-md-4 col-sm-6 col-xs-6 col-xxs-12">
+          <div className="menu-tiles">
             <a href="single.html">
               <img
                 src={zee3}
@@ -53,8 +52,8 @@ function Trending() {
             </a>
           </div>
         </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6 col-xxs-12">
-          <div class="menu-tiles">
+        <div className="col-lg-3 col-md-4 col-sm-6 col-xs-6 col-xxs-12">
+          <div className="menu-tiles">
             <a href="single.html">
               <img
                 src={zee4}
@@ -66,8 +65,8 @@ function Trending() {
             </a>
           </div>
         </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6 col-xxs-12">
-          <div class="menu-tiles">
+        <div className="col-lg-3 col-md-4 col-sm-6 col-xs-6 col-xxs-12">
+          <div className="menu-tiles">
             <a href="single.html">
               <img
                 src={zee5}
@@ -79,8 +78,8 @@ function Trending() {
             </a>
           </div>
         </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6 col-xxs-12">
-          <div class="menu-tiles">
+        <div className="col-lg-3 col-md-4 col-sm-6 col-xs-6 col-xxs-12">
+          <div className="menu-tiles">
             <a href="single.html">
               <img
                 src={zee6}
@@ -92,8 +91,8 @@ function Trending() {
             </a>
           </div>
         </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6 col-xxs-12">
-          <div class="menu-tiles">
+        <div className="col-lg-3 col-md-4 col-sm-6 col-xs-6 col-xxs-12">
+          <div className="menu-tiles">
             <a href="single.html">
               <img
                 src={zee7}
@@ -105,8 +104,8 @@ function Trending() {
             </a>
           </div>
         </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6 col-xxs-12">
-          <div class="menu-tiles">
+        <div className="col-lg-3 col-md-4 col-sm-6 col-xs-6 col-xxs-12">
+          <div className="menu-tiles">
             <a href="single.html">
               <img
                 src={zee8}
@@ -118,8 +117,8 @@ function Trending() {
             </a>
           </div>
         </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6 col-xxs-12">
-          <div class="menu-tiles">
+        <div className="col-lg-3 col-md-4 col-sm-6 col-xs-6 col-xxs-12">
+          <div className="menu-tiles">
             <a href="single.html">
               <img
                 src={zee9}
@@ -131,8 +130,8 @@ function Trending() {
             </a>
           </div>
         </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6 col-xxs-12">
-          <div class="menu-tiles">
+        <div className="col-lg-3 col-md-4 col-sm-6 col-xs-6 col-xxs-12">
+          <div className="menu-tiles">
             <a href="single.html">
               <img
                 src={zee10}
